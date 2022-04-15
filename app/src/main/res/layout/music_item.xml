@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/music_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/music_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="@string/test"
+            android:gravity="center"
+            tools:ignore="NestedWeights"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/music_desc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textSize="10sp"
+            android:text="@string/test"
+            android:gravity="center"
+            tools:ignore="SmallSp"
+            android:textColor="#716969"/>
+
+    </LinearLayout>
+</LinearLayout>
